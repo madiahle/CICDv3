@@ -1,6 +1,6 @@
 # Création du bucket S3
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "madi-deployement-005" # Remplacez par un nom unique
+  bucket = "madi-deployement-001" # Remplacez par un nom unique
 }
 
 
