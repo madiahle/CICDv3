@@ -1,4 +1,4 @@
-name: Deploy Pipeline For webApp Madi
+name: Deploy Pipeline For webApp Madi 1
 
 on:
   push:
