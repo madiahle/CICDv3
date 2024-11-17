@@ -5,7 +5,6 @@ on:
     types: [closed]
   paths:
     - "terraform/**"
-
 jobs:
   terraform:
     name: Deploy
