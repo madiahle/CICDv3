@@ -3,6 +3,7 @@ resource "aws_s3_bucket" "website_bucket" {
   bucket = "madi-deployement-005" # Remplacez par un nom unique
 }
 
+
 # # Politique du bucket pour permettre l'accès public en lecture
 resource "aws_s3_bucket_policy" "website_bucket_policy" {
   depends_on = [ aws_s3_bucket_public_access_block.website ]
